@@ -5,7 +5,7 @@ This repository contains the code for the Twitter feed microservice that you wil
 During the workshop you will Dockerize this Java microservice using Wercker, configure a CI/CD pipeline, and deploy the microservice to Oracle's managed Kubernetes service.
 
 
-Build
+Build [![wercker status](https://app.wercker.com/status/27e5582fd5ba98a4d3afb25d74791239/s/master "wercker status")](https://app.wercker.com/project/byKey/27e5582fd5ba98a4d3afb25d74791239)
 =====
 
 Build the application and the distribution zip file with the build.sh file.  It simply runs `mvn clean assembly:assembly`.  That will result in a zip file in the target folder that can be uploaded to Java SE CS.
@@ -23,3 +23,5 @@ Deploy
 You will create Wercker pipelines to build, publish, and deploy this microservice during the workshop.
 
 
+Deployed on 
+http://http://132.145.234.188:30000/
