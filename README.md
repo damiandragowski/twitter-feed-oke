@@ -24,4 +24,4 @@ You will create Wercker pipelines to build, publish, and deploy this microservic
 
 
 Deployed on 
-http://http://132.145.234.188:30000/
+http://132.145.234.188:30000/
